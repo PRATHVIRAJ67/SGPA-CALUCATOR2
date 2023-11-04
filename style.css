@@ -1,0 +1,32 @@
+/* Apply styles to the h1 element */
+h1 {
+    color: #007BFF; /* Change text color to blue */
+    text-align: center; /* Center the text */
+}
+
+/* Apply styles to form labels */
+label {
+    font-weight: bold; /* Make labels bold */
+}
+
+/* Apply styles to text input fields */
+input[type="number"] {
+    width: 100%; /* Make the input fields span the full width */
+    padding: 8px; /* Add some padding for spacing */
+    margin-bottom: 10px; /* Add spacing between input fields */
+}
+
+/* Apply styles to the submit button */
+input[type="submit"] {
+    background-color: #007BFF; /* Set a blue background color */
+    color: white; /* Change text color to white */
+    border: none; /* Remove the button border */
+    padding: 10px 20px; /* Add padding to the button */
+    cursor: pointer; /* Add a pointer cursor on hover */
+}
+
+/* Apply styles to the result paragraph */
+p {
+    text-align: center; /* Center the text */
+    font-size: 24px; /* Increase font size */
+}

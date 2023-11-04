@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculate SGPA</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+   
+
+    <h1>Calculate SGPA</h1>
+    <form action="/calculate_sgpa" method="POST">
+        <label for="Math">Math:</label>
+        <input type="number" name="Math" id="Math"><br>
+
+        <label for="Design and Analysis of Algorithms">Design and Analysis of Algorithms:</label>
+        <input type="number" name="Design and Analysis of Algorithms" id="Design and Analysis of Algorithms"><br>
+
+        <label for="Microcontrollers">Microcontrollers:</label>
+        <input type="number" name="Microcontrollers" id="Microcontrollers"><br>
+
+        <label for="OS">OS:</label>
+        <input type="number" name="OS" id="OS"><br>
+
+        <label for="Biology">Biology:</label>
+        <input type="number" name="Biology" id="Biology"><br>
+
+        <label for="Kannada">Kannada:</label>
+        <input type="number" name="Kannada" id="Kannada"><br>
+
+        <label for="UHV">UHV:</label>
+        <input type="number" name="UHV" id="UHV"><br>
+
+        <label for="IIP">IIP:</label>
+        <input type="number" name="IIP" id="IIP"><br>
+
+        <label for="Python Lab">Python Lab:</label>
+        <input type="number" name="Python Lab" id="Python Lab"><br>
+
+        <label for="Shell Programming">Shell Programming:</label>
+        <input type="number" name="Shell Programming" id="Shell Programming"><br>
+
+        <input type="submit" value="Calculate SGPA">
+    </form>
+    <p>Your SGPA is: {{ sgpa }}</p>
+</body>
+</html>
